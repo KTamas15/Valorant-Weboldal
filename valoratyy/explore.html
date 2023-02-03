@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>GNG420.gg</title>
+    <meta content="buzi.hu" property="og:title">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="./letoltes_11.png">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="gnggg">
+    <meta property="og:url" content="gnggg.hu">
+    <link rel="stylesheet" href="./stilus.css">
+    <script src="./main.js"></script>
+    <style>
+        .unselectable {
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+    <script async="" src="./files/invisible.js"></script>
+</head>
+<body>
+    <div class="hero">
+    <main>
+        <script>
+            function audioPlay() {
+                var audio = document.getElementById("audio");
+                audio.volume = 0.0;
+                audio.play()
+            }
+            function videoPlay() {
+                var video = document.getElementById("video");
+                video.volume = 1, 0;
+                video.play()
+            }
+        </script>
+        <input type="checkbox" autocomplete="off" id="overlay-toggle">
+        <input type="checkbox" autocomplete="off" id="overlay-toggle">
+        <div class="overlay fullscreen">
+            <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                <!-- <span class="no-hover" style="font-family: mono; font-size: 0.6em;">tap to enter</span>
+                <span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter</span> -->
+            </label>
+        </div>
+        <audio loop="" preload="auto" id="audio">
+            <source src="./valo1.mp4" type="audio/mp3">
+        </audio>
+        <video loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+            <source src="./valo1.mp4" type="video/mp4">
+        </video>
+        <section class="fullscreen text-content">
